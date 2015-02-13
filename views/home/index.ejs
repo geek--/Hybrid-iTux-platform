@@ -1,23 +1,230 @@
-<h1 id="header">
-    <a href="/">New Sails App</a>
-</h1>
-<div id="content">
-    <h2>It works!</h2>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Floro</title>
+    <link rel="shortcut icon" href="assets/favicon.png"/>
+    <meta name="description" content="Just a blogging platform." />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css includes -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css" />
+</head>
+<body class="home-template" style="background-image: url(content/images/2014/Mar/unsplash_524000a90aaad_1_5.JPG)">
+    <nav id="menu">
+        <a href="http://floro.ghost.io"><img src="content/images/2014/Mar/ghostifylogo-1.png" alt="Blog Logo" id="bloglogo" /></a>
+        <h4>Recent post</h4>
+        <select id="recentpostselect">
+            <option>Select Recent Post</option>
+        </select>
+        <div id="recentpost">
+        </div>
+        <p>
+                <a href="http://floro.ghost.io" class="fa-home"></a>
+                <a href="" class="fa-rss"></a>
+                <a href="" class="fa-twitter" target="_blank"></a>
+                <a href="" class="fa-facebook" target="_blank"></a>
+                <a href="" class="fa-google-plus" target="_blank"></a>
+                <a href="" class="fa-flickr" target="_blank"></a>
+                <a href="" class="fa-youtube" target="_blank"></a>
+                <a href="" class="fa-dropbox" target="_blank"></a>
+                <a href="" class="fa-linkedin" target="_blank"></a>
+                <a href="" class="fa-skype" target="_blank"></a>
+                <a href="" class="fa-github-alt" target="_blank"></a>
+                <a href="" class="fa-pinterest" target="_blank"></a>
+                <a href="" class="fa-vimeo-square" target="_blank"></a>
+                <a href="" class="fa-xing" target="_blank"></a>
+        </p>
+            
+            
+                <form class="donatebutton" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <h3>
+                        <!--Text mesage -->
+                        <strong class="fa-coffee"></strong>/<strong class="fa-beer"></strong> Donate Button
+                    </h3>
+                    <!-- PayPal account-->
+                    <input type="hidden" name="business" value="yourmail@domain.com" />
+                    <!-- Languaje US-English | DE-German | BE-Dutch | FR-French | BR-Portuguese | C2-Simplified Chinese | DK-Danish | RU-Russian | HK-Traditional Chinese | IL-Hebrew | IT-Italy | ES-Spanish | NO-Norwegian | PL-Polish | SE-Swedish | TH-Thai | TR-Turkish -->
+                    <input type="hidden" name="lc" value="US" />
+                    <!-- Currency USD | AUD | BRL | GBP | CAD | CZK | DKK | EUR | HKD | HUF | ILS | JPY | MXN | TWD | NZD | NOK | PHP | PLN | RUB | SGD | SEK | CHF | THB -->
+                    <input type="hidden" name="currency_code" value="USD" />
+                    <!-- DELETE THIS LINE TO ACTIVE FIX AMOUNT
+                        <input type="hidden" name="amount" value="20.00">
+                    DELETE THIS LINE TO ACTIVE FIX AMOUNT -->
+                    <!-- Button-->
+                    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" />
+                    <!-- Donation Name-->
+                    <input type="hidden" name="item_name" value="Donation for yur name/company" />
+                    <input type="hidden" name="cmd" value="_donations" />
+                    <input type="hidden" name="no_note" value="0" />
+                </form>
+            
+            
+            
+            
+            
+    </nav>
+        <main class="content" role="main" id="gridalicious">
+        <article class="post tag-getting-started featured">
+            <header class="post-header">
+                <p></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/welcome-to-ghost/">Welcome to Ghost</a></h2>
+                <div class="post-meta"><time datetime="2014-03-04">04 Mar 2014</time>  <span class="tags"><a href="/tag/getting-started/">Getting Started</a></span></div>
+                <p>You're in! Nice. We've put together a little post to introduce you to the Ghost editor and get you started. Go ahead and edit this post to get going and learn how it all works! Getting Started Writing in markdown is really easy. In the left hand panel of Ghost,</p>
+                <a href="/welcome-to-ghost/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post tag-bait tag-rood">
+            <header class="post-header">
+                <p><img src="content/images/2014/Mar/man_fishing-1.JPG" alt="" /></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/fishing-in-sea/">Fishing in sea</a></h2>
+                <div class="post-meta"><time datetime="2014-03-03">03 Mar 2014</time>  <span class="tags"><a href="/tag/bait/">Bait</a> , <a href="/tag/rood/">Rood</a></span></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, est, consectetur, officiis, soluta impedit eveniet esse iusto temporibus asperiores quasi quos mollitia voluptates rerum quae voluptatem amet quidem totam. Et!</p>
+                <a href="/fishing-in-sea/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post tag-videos tag-colors tag-images tag-javascript tag-music">
+            <header class="post-header">
+                <h3 id="mediasources"></h3>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/lorem-ipsum/">Credits</a></h2>
+                <div class="post-meta"><time datetime="2014-03-02">02 Mar 2014</time>  <span class="tags"><a href="/tag/videos/">Videos</a> , <a href="/tag/colors/">Colors</a> , <a href="/tag/images/">Images</a> , <a href="/tag/javascript/">Javascript</a> , <a href="/tag/music/">Music</a></span></div>
+                <p>Media Sources All images used on theme are from unsplash under CC license.  YouTube video, "Contagion - Epic Rocktronica" from Scott Buckley.  SoundCloud theme "Lost Hrizon" by ISS  Vimeo video, "Kill Me Laser - Blood - Official Music Video" by Jovan Todorovic   Code Framework Jquery  Jquery  Nice Scrooll  Grid system</p>
+                <a href="/lorem-ipsum/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post tag-travel">
+            <header class="post-header">
+                <p><img src="content/images/2014/Mar/tracks-1.jpg" alt="" /></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/train/">Traveling on Train</a></h2>
+                <div class="post-meta"><time datetime="2014-03-02">02 Mar 2014</time>  <span class="tags"><a href="/tag/travel/">Travel</a></span></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, voluptas, non deserunt sapiente porro modi a voluptates nemo.</p>
+                <a href="/train/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post tag-water">
+            <header class="post-header">
+                <p><img src="content/images/2014/Mar/unsplash_5263605581e32_1-1.JPG" alt="" /></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/sample-page/">Beach Paradise</a></h2>
+                <div class="post-meta"><time datetime="2014-03-02">02 Mar 2014</time>  <span class="tags"><a href="/tag/water/">Water</a></span></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, accusamus, maiores mollitia perferendis cum rerum reprehenderit quos dolor dolorem cumque architecto omnis velit! Ad repellendus dolorum voluptates tenetur et nemo!</p>
+                <a href="/sample-page/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post tag-tu-tuc">
+            <header class="post-header">
+                <p><img src="content/images/2014/Mar/car-1.jpg" alt="" /></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/transport/">Transport</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time>  <span class="tags"><a href="/tag/tu-tuc/">Tu Tuc</a></span></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, fuga, veniam, quidem incidunt consequuntur et distinctio quasi debitis</p>
+                <a href="/transport/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post tag-war tag-soldier featured">
+            <header class="post-header">
+                <p><img src="content/images/2014/Mar/hochbunker_2.jpg" alt="" /></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/buncker/">Old Buncker</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time>  <span class="tags"><a href="/tag/war/">War</a> , <a href="/tag/soldier/">Soldier</a></span></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, illo suscipit soluta incidunt perferendis natus quia perspiciatis iusto nam veniam repellat nesciunt fugit enim consequatur officia labore deleniti quisquam minus.</p>
+                <a href="/buncker/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post">
+            <header class="post-header">
+                <p><img src="content/images/2014/Mar/Bird_Profile_Wellington_New_Zealand_3.jpg" alt="" /></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/a-bird/">Ready to Fly</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time> </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, incidunt, consequuntur, ad vitae maxime iure repudiandae quasi quidem similique nemo ea perspiciatis laboriosam. Rem, dignissimos, ipsum hic voluptatem fugiat nihil!</p>
+                <a href="/a-bird/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post">
+            <header class="post-header">
+                <iframe height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.es/?ie=UTF8&amp;ll=49.382373,10.898438&amp;spn=126.602883,346.289063&amp;t=m&amp;z=2&amp;output=embed"></iframe>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/google-maps/">Google Maps</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time> </div>
+                <p>This is a post whith enbed map from Google Maps.</p>
+                <a href="/google-maps/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post featured">
+            <header class="post-header">
+                <iframe height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/110243940&amp;color=ff6600&amp;auto_play=false&amp;show_artwork=true"></iframe>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/soundcloud/">SoundCloud</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time> </div>
+                <p>Sound Cloud example. Music by ISS.</p>
+                <a href="/soundcloud/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post">
+            <header class="post-header">
+                <iframe height="315" src="//www.youtube.com/embed/-AZTF8f0JV4" frameborder="0" allowfullscreen></iframe>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/youtube-video/">Youtube</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time> </div>
+                <p>Example video from Youtube enbed. Video by Scott Buckley</p>
+                <a href="/youtube-video/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post">
+            <header class="post-header">
+                <iframe src="//player.vimeo.com/video/63975488?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/vimeo-video/">Vimeo</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time> </div>
+                <p>Example video from Vimeo. Video by Jovan Todorovic</p>
+                <a href="/vimeo-video/" class="button">Read more</a>
+            </section>
+        </article>
+        <article class="post tag-iron tag-architect">
+            <header class="post-header">
+                <p><img src="content/images/2014/Mar/unsplash_5244800b1ebf4_1-1.JPG" alt="" /></p>
+            </header>
+            <section class="post-excerpt">
+                <h2 class="post-title"><a href="/image-post/">Bridge to Future</a></h2>
+                <div class="post-meta"><time datetime="2014-03-01">01 Mar 2014</time>  <span class="tags"><a href="/tag/iron/">Iron</a> , <a href="/tag/architect/">Architect</a></span></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolore, praesentium libero est natus quos fugit ipsa mollitia quaerat illum nemo enim ab fuga quibusdam officiis cupiditate alias similique nisi.</p>
+                <a href="/image-post/" class="button">Read more</a>
+            </section>
+        </article>
+    </main>
+<nav class="pagination" role="navigation">
+    <span class="page-number">Page 1 of 1</span>
+</nav>
+    <footer class="site-footer">
+        <h2 class="blog-description">Just a blogging platform.</h2>
+        <section class="copyright">Copyright © <a href="">Floro</a> 2014 • All rights reserved.</section>
+        <a class="subscribe fa-rss" href="http://floro.ghost.io/rss/"> Subscribe!</a>
+    </footer>    <!--All js includes-->
+    <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="assets/js/gridalicius.js"></script>
+    <script type="text/javascript" src="assets/js/device.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+<img src="view.gif?page=/" alt="" style="display:none" hidden />
+</body>
+</html>
 
-    <p>You've successfully installed the Sails Framework.</p>
-
-    <p>Sails is a modern, realtime MVC framework for the Node.js platform. <br/> <span class="highlight">It helps you build apps fast.</span></p>
-
-    <p>
-        <a href="https://github.com/balderdashy/sails/wiki" class="button"><span>Documentation</span></a>
-        <a href="https://github.com/balderdashy/sails/wiki/Changelog" class="button"><span>Changelog</span></a>
-    </p>
-</div>
-
-<div id="footer">
-    <a target="_blank" href="http://sailsjs.com" class="copyright">Built with Sails.js</a>
-</div>
-
-<style type="text/css">
-    body{font-size:1em;line-height:1.5;background:#e7e7e7;font-family:'Helvetica Neue',Helvetica,Arial,serif;text-shadow:0 1px 0 rgba(255,255,255,0.8);color:#6d6d6d}#header{width:100%;background:#fff;margin-bottom:25px}#header a{padding:25px 0;width:620px;margin:0 auto;color:#158ea1;display:block;font-weight:800}#content,#footer{width:620px;margin:0 auto}h2{font-size:32px}p{font-weight:300;margin-bottom:20px}a,a:hover{color:#c5000c}p a{font-weight:bold}a.button{-moz-border-radius:30px;-webkit-border-radius:30px;border-radius:30px;border-top:solid 1px #cbcbcb;border-left:solid 1px #b7b7b7;border-right:solid 1px #b7b7b7;border-bottom:solid 1px #b3b3b3;color:#303030;line-height:25px;font-weight:bold;font-size:15px;padding:12px 8px 12px 8px;display:inline-block;width:179px;margin-right:14px;background:#fdfdfd;background:-moz-linear-gradient(top,#fdfdfd 0,#f2f2f2 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fdfdfd),color-stop(100%,#f2f2f2));background:-webkit-linear-gradient(top,#fdfdfd 0,#f2f2f2 100%);background:-o-linear-gradient(top,#fdfdfd 0,#f2f2f2 100%);background:-ms-linear-gradient(top,#fdfdfd 0,#f2f2f2 100%);background:linear-gradient(top,#fdfdfd 0,#f2f2f2 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd',endColorstr='#f2f2f2',GradientType=0);-webkit-box-shadow:10px 10px 5px #888;-moz-box-shadow:10px 10px 5px #888;box-shadow:0 1px 5px #e8e8e8}a.button:hover{border-top:solid 1px #b7b7b7;border-left:solid 1px #b3b3b3;border-right:solid 1px #b3b3b3;border-bottom:solid 1px #b3b3b3;background:#fafafa;background:-moz-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#fdfdfd),color-stop(100%,#f6f6f6));background:-webkit-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);background:-o-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);background:-ms-linear-gradient(top,#fdfdfd 0,#f6f6f6 100%);background:linear-gradient(top,#fdfdfd 0,#f6f6f6,100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fdfdfd',endColorstr='#f6f6f6',GradientType=0)}a.button span{padding-left:30px;padding-right:30px;display:block;height:23px;text-align:center}.highlight{border-bottom:1px solid #158ea1}#footer{border-top:1px solid #cacaca;margin-top:40px;padding-top:20px;padding-bottom:30px;font-size:13px;color:#AAA}
-</style>
