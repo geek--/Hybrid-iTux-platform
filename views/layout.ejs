@@ -25,36 +25,66 @@
 	<!--<body class="home-template" style="background-image: url(content/images/2014/Mar/unsplash_524000a90aaad_1_5.JPG)">-->
 	<body class="home-template" style="background-color: #FFFFFF">
 		<nav id="menu">
-        	<a href="http://itux.pe"><img src="content/images/2014/Mar/ghostifylogo-1.png" alt="Blog Logo" id="bloglogo" /></a>
-        	<h4>Recent Post</h4>
-        	<a href="https://ghostbl.herokuapp.com/iBlog/" style="color:#fff;" alt="_blank" target="_blank">iBlog</a>
-       	 	<select id="recentpostselect">
-            	<option>Select Recent Post</option>
-        	</select>
-        	<div id="recentpost"></div>
-        	<p>
-                <a href="http://floro.ghost.io" class="fa-home"></a>
-                <a href="" class="fa-rss"></a>
-                <a href="" class="fa-twitter" target="_blank"></a>
-                <a href="" class="fa-facebook" target="_blank"></a>
-                <a href="" class="fa-google-plus" target="_blank"></a>
-                <a href="" class="fa-flickr" target="_blank"></a>
-                <a href="" class="fa-youtube" target="_blank"></a>
-                <a href="" class="fa-dropbox" target="_blank"></a>
-                <a href="" class="fa-linkedin" target="_blank"></a>
-                <a href="" class="fa-skype" target="_blank"></a>
-                <a href="" class="fa-github-alt" target="_blank"></a>
-                <a href="" class="fa-pinterest" target="_blank"></a>
-                <a href="" class="fa-vimeo-square" target="_blank"></a>
-                <a href="" class="fa-xing" target="_blank"></a>
-        	</p>
+			<i class="fa fa-bars andcust2"></i>
+			<div class="andcust3">
+				<a href="http://itux.pe"><img src="content/images/2014/Mar/itux_bg.png" alt="Blog Logo" id="bloglogo" style="width:100%;" /></a>
+	        	<h4>Recent Post</h4>
+	        	<a href="https://ghostbl.herokuapp.com/iBlog/" style="color:#fff;" alt="_blank" target="_blank">iBlog</a>
+	       	 	<select id="recentpostselect">
+	            	<option>Select Recent Post</option>
+	        	</select>
+	        	<div id="recentpost"></div>
+	        	<p>
+	                <a href="http://floro.ghost.io" class="fa-home col-deepGreen"></a>
+	                <a href="" class="fa-rss col-deepGreen"></a>
+	                <a href="" class="fa-twitter col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-facebook col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-google-plus col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-flickr col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-youtube col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-dropbox col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-linkedin col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-skype col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-github-alt col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-pinterest col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-vimeo-square col-deepGreen" target="_blank"></a>
+	                <a href="" class="fa-xing col-deepGreen" target="_blank"></a>
+	        	</p>
+			</div>
     	</nav>
+    	<header>
+    		<div class="custand4">
+			  <div class="">
+			  	<h2 class="blog-description"></h2><br>
+			  	<img src="content/images/banners/z.png" alt="Blog Logo" id="bloglogo" style="width:120px; margin-bottom: -73px;" />
+			  </div>
+			 
+			  <div class="">
+			  		<h1 class="custand6">Build Software freelance developer Projects Open Source</h1><br>
+			  		<img src="content/images/banners/b.png" alt="Blog Logo" id="bloglogo" style="width:85%; margin-left: -8% !important;" />
+			  </div>
+
+			   <div class="col-md-1">
+				<form id="signup">
+					<input type="text" placeholder="Pick a username" required="">
+				    <input type="email" placeholder="itux.user@email.com" required="">
+				    <input type="password" placeholder="Create password" required="">                  
+				    <button type="submit" class="example subm">Sign up for free!</button>
+				</form> 
+			  </div>
+			  <div class="col-md-1" style="margin-bottom: -45px !important;">
+			  	<h2 class="blog-description"></h2><br>
+			  	<img src="content/images/banners/z.png" alt="Blog Logo" id="bloglogo" style="width:120px; margin-bottom: -73px;" />
+			  </div>
+			</div>
+	    </header>
 		<%- body %>
+		<!--added Comment
 		<footer class="site-footer">
 	        <h2 class="blog-description">Just a blogging platform.</h2>
 	        <section class="copyright">Copyright © <a href="">2015</a> 2015 • </section>
 	        <a class="subscribe fa-rss" href="http://floro.ghost.io/rss/"> Subscribe!</a>
-	    </footer>
+	    </footer>-->
 		<!-- Templates from your view path are included here -->
 		<%- assets.templateLibrary() %>
 	</body>
